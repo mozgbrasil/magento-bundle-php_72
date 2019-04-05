@@ -1,0 +1,57 @@
+{
+    "name": "mozgbrasil/magento-bundle-php_72",
+    "description": "Este é um meta pacote que instala todos os módulos da Mozg no Magento",
+    "version": "dev-master",
+    "type": "metapackage",
+    "keywords": ["cerebrum", "mozg", "magento", "metapackage"],
+    "homepage": "http://mozg.com.br",
+    "time": "2019-04-05 01:37:18",
+    "license": [
+        "proprietary"
+    ],
+    "authors": [
+        {
+            "name": "Marcio dos Santos Amorim",
+            "email": "suporte@mozg.com.br",
+            "homepage": "http://mozg.com.br",
+            "role": "Developer"
+        }
+    ],
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://packages.firegento.com"
+        }
+    ],
+    "support": {
+        "email": "suporte@mozg.com.br",
+        "issues": "https://github.com/mozgbrasil/magento-bundle-php_72/issues",
+        "forum": "http://mozg.com.br/forums/view/1",
+        "wiki": "http://wiki.mozg.com.br",
+        "irc": "irc://irc.freenode.org/mozgbrasil",
+        "source": "https://github.com/mozgbrasil/magento-bundle-php_72",
+        "docs": "https://github.com/mozgbrasil/magento-bundle-php_72/wiki",
+        "rss": "http://mozg.com.br/sitemap.xml"
+    },
+    "require" : {
+        "mozgbrasil/magento-iwd-opc": "dev-master",
+        "mozgbrasil/magento-brasil-regions": "dev-master",
+        "mozgbrasil/magento-locale-pt_br": "dev-master",
+        "mozgbrasil/magento-correios-php_72": "dev-master",
+        "mozgbrasil/magento-jamef-php_72": "dev-master",
+        "mozgbrasil/magento-jadlog-php_72": "dev-master",
+        "mozgbrasil/magento-loggi-php_72": "dev-master",
+        "mozgbrasil/magento-clearsale-php_72": "dev-master",
+        "mozgbrasil/magento-customer-php_72": "dev-master",
+        "mozgbrasil/magento-braspag-php_72": "dev-master",
+        "mozgbrasil/magento-cielo-php_72": "dev-master",
+        "mozgbrasil/magento-itau-php_72": "dev-master",
+        "mozgbrasil/magento-checkout-filters-php_72": "dev-master",
+        "mozgbrasil/magento-redecard-php_72": "dev-master",
+        "mozgbrasil/magento-bradesco-php_72": "dev-master",
+        "mozgbrasil/magento-bancodobrasil-php_72": "dev-master",
+        "mozgbrasil/magento-pagseguro-php_72": "dev-master",
+        "mozgbrasil/magento-rede-php_72": "dev-master",
+        "mozgbrasil/magento-squidfacil-php_72": "dev-master"
+    }
+}
